@@ -3,8 +3,6 @@
 import rclpy
 from rclpy.node import Node
 
-import message_filters
-
 from std_msgs.msg import Int32MultiArray
 
 class MergeArrays(Node):
@@ -12,22 +10,31 @@ class MergeArrays(Node):
     total_array = []
 
     def __init__(self):
-        super().__init__("merge_arrays_node")
-        self.array_1_subscriber = message_filters.Subscriber('/input/array1', Int32MultiArray)
-        self.array_2_subscriber = message_filters.Subscriber('/input/array2', Int32MultiArray)
+        super().__init__("old_merge_arrays_node")
+        self.array_1_subscriber = self.create_subscription(Int32MultiArray, "/input/array1", 
+            self.fetch_array_1_callback, 10)
+        self.array_2_subscriber = self.create_subscription(Int32MultiArray, "/input/array2",
+            self.fetch_array_2_callback, 10)
+        self.array_publisher = self.create_publisher(Int32MultiArray, "/output/array", 10)
+        self.timer = self.create_timer(1, self.send_merged_array)
 
-        ts = message_filters.ApproximateTimeSynchronizer([self.array_1_subscriber, self.array_2_subscriber], 
-            10, 0.1, allow_headerless=True)
-        ts.registerCallback(self.callback)
+    def fetch_array_1_callback(self, msg):
+        for i in range(len(msg.data)):
+            self.total_array.append(msg.data[i])
 
-    def callback(self):
-        self.total_array = self.array_1_subscriber.get_last_message().data + self.array_2_subscriber.get_last_message().data
+    def fetch_array_2_callback(self, msg):
+        for i in range(len(msg.data)):
+            self.total_array.append(msg.data[i])
+
+    def sort_array(self):
         self.total_array.sort()
+        return self.total_array
 
+    def send_merged_array(self):
         msg = Int32MultiArray()
-        msg.data = self.total_array
-        array_publisher = self.create_publisher(Int32MultiArray, "/output/array", 10)
-        array_publisher.publish(msg)
+        msg.data = self.sort_array()
+        self.array_publisher.publish(msg)
+        
 
 def main(args=None):
     rclpy.init(args=args)
