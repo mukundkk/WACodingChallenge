@@ -1,0 +1,9 @@
+source;share/merge_arrays/hook/pythonpath.ps1
+source;share/merge_arrays/hook/pythonpath.dsv
+source;share/merge_arrays/hook/pythonpath.sh
+source;share/merge_arrays/hook/ament_prefix_path.ps1
+source;share/merge_arrays/hook/ament_prefix_path.dsv
+source;share/merge_arrays/hook/ament_prefix_path.sh
+source;../../build/merge_arrays/share/merge_arrays/hook/pythonpath_develop.ps1
+source;../../build/merge_arrays/share/merge_arrays/hook/pythonpath_develop.dsv
+source;../../build/merge_arrays/share/merge_arrays/hook/pythonpath_develop.sh

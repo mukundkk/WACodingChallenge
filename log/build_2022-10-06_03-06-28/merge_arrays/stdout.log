@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating merge_arrays.egg-info
+writing merge_arrays.egg-info/PKG-INFO
+writing dependency_links to merge_arrays.egg-info/dependency_links.txt
+writing entry points to merge_arrays.egg-info/entry_points.txt
+writing requirements to merge_arrays.egg-info/requires.txt
+writing top-level names to merge_arrays.egg-info/top_level.txt
+writing manifest file 'merge_arrays.egg-info/SOURCES.txt'
+reading manifest file 'merge_arrays.egg-info/SOURCES.txt'
+writing manifest file 'merge_arrays.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages/merge-arrays.egg-link (link to .)
+Installing merge_arrays_node script to /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/merge_arrays
+
+Installed /root/ros2_ws/src/merge_arrays/build/merge_arrays
+running install_data
+creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index
+creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index
+creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages
+copying resource/merge_arrays -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/merge_arrays

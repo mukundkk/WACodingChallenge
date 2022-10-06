@@ -1,0 +1,24 @@
+[4.050s] Invoking command in '/root/ros2_ws/src/merge_arrays/build/merge_arrays': PYTHONPATH=/root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /root/ros2_ws/src/merge_arrays/install/merge_arrays --editable --build-directory /root/ros2_ws/src/merge_arrays/build/merge_arrays/build --no-deps install_data --install-dir /root/ros2_ws/src/merge_arrays/install/merge_arrays
+[5.652s] running develop
+[6.360s] running egg_info
+[6.361s] creating merge_arrays.egg-info
+[6.362s] writing merge_arrays.egg-info/PKG-INFO
+[6.363s] writing dependency_links to merge_arrays.egg-info/dependency_links.txt
+[6.364s] writing entry points to merge_arrays.egg-info/entry_points.txt
+[6.365s] writing requirements to merge_arrays.egg-info/requires.txt
+[6.365s] writing top-level names to merge_arrays.egg-info/top_level.txt
+[6.366s] writing manifest file 'merge_arrays.egg-info/SOURCES.txt'
+[6.374s] reading manifest file 'merge_arrays.egg-info/SOURCES.txt'
+[6.377s] writing manifest file 'merge_arrays.egg-info/SOURCES.txt'
+[6.384s] running build_ext
+[6.385s] Creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages/merge-arrays.egg-link (link to .)
+[6.390s] Installing merge_arrays_node script to /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/merge_arrays
+[6.391s] 
+[6.392s] Installed /root/ros2_ws/src/merge_arrays/build/merge_arrays
+[6.393s] running install_data
+[6.394s] creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index
+[6.394s] creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index
+[6.394s] creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages
+[6.395s] copying resource/merge_arrays -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages
+[6.395s] copying package.xml -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/merge_arrays
+[6.499s] Invoked command in '/root/ros2_ws/src/merge_arrays/build/merge_arrays' returned '0': PYTHONPATH=/root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /root/ros2_ws/src/merge_arrays/install/merge_arrays --editable --build-directory /root/ros2_ws/src/merge_arrays/build/merge_arrays/build --no-deps install_data --install-dir /root/ros2_ws/src/merge_arrays/install/merge_arrays

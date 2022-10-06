@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.004278] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.008620] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.098570] (-) TimerEvent: {}
+[0.199711] (-) TimerEvent: {}
+[0.301335] (-) TimerEvent: {}
+[0.402492] (-) TimerEvent: {}
+[0.503714] (-) TimerEvent: {}
+[0.606325] (-) TimerEvent: {}
+[0.707735] (-) TimerEvent: {}
+[0.808960] (-) TimerEvent: {}
+[0.912496] (-) TimerEvent: {}
+[1.013963] (-) TimerEvent: {}
+[1.115453] (-) TimerEvent: {}
+[1.216490] (-) TimerEvent: {}
+[1.317568] (-) TimerEvent: {}
+[1.418711] (-) TimerEvent: {}
+[1.520083] (-) TimerEvent: {}
+[1.622523] (-) TimerEvent: {}
+[1.724025] (-) TimerEvent: {}
+[1.825485] (-) TimerEvent: {}
+[1.927135] (-) TimerEvent: {}
+[2.028735] (-) TimerEvent: {}
+[2.129776] (-) TimerEvent: {}
+[2.230887] (-) TimerEvent: {}
+[2.331880] (-) TimerEvent: {}
+[2.432952] (-) TimerEvent: {}
+[2.533942] (-) TimerEvent: {}
+[2.635087] (-) TimerEvent: {}
+[2.736457] (-) TimerEvent: {}
+[2.837709] (-) TimerEvent: {}
+[2.938949] (-) TimerEvent: {}
+[3.040167] (-) TimerEvent: {}
+[3.141201] (-) TimerEvent: {}
+[3.242348] (-) TimerEvent: {}
+[3.343352] (-) TimerEvent: {}
+[3.444400] (-) TimerEvent: {}
+[3.545665] (-) TimerEvent: {}
+[3.647479] (-) TimerEvent: {}
+[3.748467] (-) TimerEvent: {}
+[3.850088] (-) TimerEvent: {}
+[3.951293] (-) TimerEvent: {}
+[4.047908] (merge_arrays) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/root/ros2_ws/src/merge_arrays/install/merge_arrays', '--editable', '--build-directory', '/root/ros2_ws/src/merge_arrays/build/merge_arrays/build', '--no-deps', 'install_data', '--install-dir', '/root/ros2_ws/src/merge_arrays/install/merge_arrays'], 'cwd': '/root/ros2_ws/src/merge_arrays/build/merge_arrays', 'env': {'COLCON': '1', 'PYTHONPATH': '/root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages:/root/ros2_ws/build/merge_arrays:/root/ros2_ws/install/merge_arrays/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_ALL': 'C.UTF-8', 'PWD': '/root/ros2_ws/src/merge_arrays/build/merge_arrays', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/merge_arrays:/opt/ros/humble', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LANG': 'C.UTF-8', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_LOCALHOST_ONLY': '0', 'TERM': 'xterm', 'ROS_VERSION': '2', '_': '/usr/bin/colcon', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_PYTHON_VERSION': '3', 'OLDPWD': '/', 'HOME': '/root', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'SHLVL': '1', 'HOSTNAME': '70a39ddeb274'}, 'shell': False}
+[4.060017] (-) TimerEvent: {}
+[4.161376] (-) TimerEvent: {}
+[4.262461] (-) TimerEvent: {}
+[4.364614] (-) TimerEvent: {}
+[4.466147] (-) TimerEvent: {}
+[4.567764] (-) TimerEvent: {}
+[4.669160] (-) TimerEvent: {}
+[4.770593] (-) TimerEvent: {}
+[4.872099] (-) TimerEvent: {}
+[4.973636] (-) TimerEvent: {}
+[5.079487] (-) TimerEvent: {}
+[5.180975] (-) TimerEvent: {}
+[5.282058] (-) TimerEvent: {}
+[5.383130] (-) TimerEvent: {}
+[5.484195] (-) TimerEvent: {}
+[5.585289] (-) TimerEvent: {}
+[5.660049] (merge_arrays) StdoutLine: {'line': b'running develop\n'}
+[5.685476] (-) TimerEvent: {}
+[5.786506] (-) TimerEvent: {}
+[5.887742] (-) TimerEvent: {}
+[5.988977] (-) TimerEvent: {}
+[6.090331] (-) TimerEvent: {}
+[6.191599] (-) TimerEvent: {}
+[6.292734] (-) TimerEvent: {}
+[6.368538] (merge_arrays) StdoutLine: {'line': b'running egg_info\n'}
+[6.369425] (merge_arrays) StdoutLine: {'line': b'creating merge_arrays.egg-info\n'}
+[6.369982] (merge_arrays) StdoutLine: {'line': b'writing merge_arrays.egg-info/PKG-INFO\n'}
+[6.371644] (merge_arrays) StdoutLine: {'line': b'writing dependency_links to merge_arrays.egg-info/dependency_links.txt\n'}
+[6.372343] (merge_arrays) StdoutLine: {'line': b'writing entry points to merge_arrays.egg-info/entry_points.txt\n'}
+[6.372996] (merge_arrays) StdoutLine: {'line': b'writing requirements to merge_arrays.egg-info/requires.txt\n'}
+[6.373600] (merge_arrays) StdoutLine: {'line': b'writing top-level names to merge_arrays.egg-info/top_level.txt\n'}
+[6.374261] (merge_arrays) StdoutLine: {'line': b"writing manifest file 'merge_arrays.egg-info/SOURCES.txt'\n"}
+[6.382458] (merge_arrays) StdoutLine: {'line': b"reading manifest file 'merge_arrays.egg-info/SOURCES.txt'\n"}
+[6.385777] (merge_arrays) StdoutLine: {'line': b"writing manifest file 'merge_arrays.egg-info/SOURCES.txt'\n"}
+[6.392304] (merge_arrays) StdoutLine: {'line': b'running build_ext\n'}
+[6.392912] (-) TimerEvent: {}
+[6.393639] (merge_arrays) StdoutLine: {'line': b'Creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/python3.10/site-packages/merge-arrays.egg-link (link to .)\n'}
+[6.398078] (merge_arrays) StdoutLine: {'line': b'Installing merge_arrays_node script to /root/ros2_ws/src/merge_arrays/install/merge_arrays/lib/merge_arrays\n'}
+[6.399553] (merge_arrays) StdoutLine: {'line': b'\n'}
+[6.400327] (merge_arrays) StdoutLine: {'line': b'Installed /root/ros2_ws/src/merge_arrays/build/merge_arrays\n'}
+[6.401021] (merge_arrays) StdoutLine: {'line': b'running install_data\n'}
+[6.401866] (merge_arrays) StdoutLine: {'line': b'creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index\n'}
+[6.402408] (merge_arrays) StdoutLine: {'line': b'creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index\n'}
+[6.402803] (merge_arrays) StdoutLine: {'line': b'creating /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages\n'}
+[6.403192] (merge_arrays) StdoutLine: {'line': b'copying resource/merge_arrays -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/ament_index/resource_index/packages\n'}
+[6.403668] (merge_arrays) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/src/merge_arrays/install/merge_arrays/share/merge_arrays\n'}
+[6.493298] (-) TimerEvent: {}
+[6.507508] (merge_arrays) CommandEnded: {'returncode': 0}
+[6.596625] (-) TimerEvent: {}
+[6.616096] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 0}
+[6.619828] (-) EventReactorShutdown: {}
